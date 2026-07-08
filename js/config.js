@@ -24,9 +24,9 @@ window.SITE_CONFIG = {
   // ---------------------------------------------------------------------
   // Contact details — used for tel:, mailto:, wa.me links & schema
   // ---------------------------------------------------------------------
-  phoneDisplay: "+91 98765 43210",
-  phoneRaw: "+919876543210",
-  whatsappNumber: "919876543210", // digits only, country code, no + or spaces
+  phoneDisplay: "+91 95800 12345",
+  phoneRaw: "+919580012345",
+  whatsappNumber: "919580012345", // digits only, country code, no + or spaces
   email: "info@worldstoursandtravels.com",
 
   address: {
@@ -54,10 +54,10 @@ window.SITE_CONFIG = {
   // ---------------------------------------------------------------------
   social: {
     facebook: "https://facebook.com/worldstoursandtravels",
-    instagram: "https://instagram.com/worldstoursandtravels",
-    twitter: "https://twitter.com/worldstours",
+    instagram: "https://www.instagram.com/worldtoursandtravels1/",
+    twitter: "https://x.com/WorldTours11",
     youtube: "https://youtube.com/@worldstoursandtravels",
-    linkedin: "https://linkedin.com/company/worldstoursandtravels"
+    linkedin: "https://www.linkedin.com/in/world-tours-and-travels-ab6a88374/"
   },
 
   // ---------------------------------------------------------------------

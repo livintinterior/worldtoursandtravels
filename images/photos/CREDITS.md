@@ -32,6 +32,7 @@ license requires.
 | ac-bus.jpg | KSRTC AC Volvo, Trivandrum | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Trivandrum_AC_Volvo_KSRTC.jpg) |
 | nonac-bus.jpg | DTC non-AC bus | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:DTC_Bus_Green_Non_AC.jpg) |
 | hero-banner.jpg | Ghat road, Yercaud, Salem | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Sixty_feet_bridge-5-ghat_road-yercaud-salem-India.jpg) |
+| hero-highway-aerial.jpg | Aerial view of NH 16 near Regupalem, Andhra Pradesh (CC BY-SA 4.0, credit: iMahesh) | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Aerial_view_of_National_Highway_16_near_Regupalem.jpg) |
 | about-fleet.jpg | Radio taxis, Hyderabad airport | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:HYD_Radio_taxis.jpg) |
 
 ## Attribution reminder

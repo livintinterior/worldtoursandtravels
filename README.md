@@ -74,10 +74,11 @@ to find them.
 ├── tools/
 │   ├── generate-icons.js    # regenerates favicon/*.png from scratch (no deps)
 │   └── generate-og-image.js # regenerates images/og-cover.png (no deps)
-├── robots.txt
-├── sitemap.xml
-├── manifest.json
-└── browserconfig.xml
+├── config/
+│   ├── manifest.json     # PWA manifest (linked from every page's <head>)
+│   └── browserconfig.xml # Windows tile config (linked from every page's <head>)
+├── robots.txt            # must stay at root — checked at the domain root by crawlers
+└── sitemap.xml           # must stay at root — referenced by absolute URL in robots.txt
 ```
 
 ## Images
