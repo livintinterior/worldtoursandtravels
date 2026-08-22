@@ -14,11 +14,11 @@ window.SITE_CONFIG = {
   // ---------------------------------------------------------------------
   // Core identity
   // ---------------------------------------------------------------------
-  businessName: "Worlds Tours and Travels",
-  shortName: "Worlds Tours",
+  businessName: "HCR Hyderabad Cab Rentals",
+  shortName: "HCR",
   tagline: "Reliable Cab & Bus Services for Every Journey",
-  logo: "images/logo.svg",
-  logoAlt: "Worlds Tours and Travels logo",
+  logo: "images/logo-hcr.jpg",
+  logoAlt: "HCR Hyderabad Cab Rentals logo",
   websiteUrl: "https://www.worldstoursandtravels.com",
 
   // ---------------------------------------------------------------------
@@ -74,11 +74,11 @@ window.SITE_CONFIG = {
   // SEO defaults
   // ---------------------------------------------------------------------
   seo: {
-    titleSuffix: " | Worlds Tours and Travels",
+    titleSuffix: " | HCR Hyderabad Cab Rentals",
     defaultDescription:
-      "Worlds Tours and Travels provides reliable cab services, airport transfers, outstation taxi, luxury bus booking, tempo traveller rental, corporate transportation, tour packages, and 24×7 travel services.",
+      "HCR Hyderabad Cab Rentals provides reliable cab services, airport transfers, outstation taxi, luxury bus booking, tempo traveller rental, corporate transportation, and 24×7 travel services.",
     keywords:
-      "Cab Service, Taxi Service, Bus Service, Bus Booking, Travel Agency, Tours and Travels, Airport Taxi, Airport Transfer, Outstation Taxi, Tempo Traveller, Luxury Bus, Corporate Transport, Tour Packages, Car Rental, Local Taxi",
+      "Cab Service, Taxi Service, Bus Service, Bus Booking, Travel Agency, Tours and Travels, Airport Taxi, Airport Transfer, Outstation Taxi, Tempo Traveller, Luxury Bus, Corporate Transport, Car Rental, Local Taxi",
     googleSiteVerification: "PASTE-YOUR-GOOGLE-SITE-VERIFICATION-CODE-HERE",
     themeColor: "#1E3A8A"
   },

@@ -20,7 +20,8 @@ license requires.
 | mysore.jpg | Mysore Palace | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Mysore_Palace_Front_view.jpg) |
 | hatchback.jpg | Maruti Suzuki Swift | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Suzuki_Swift_front-1.jpg) |
 | sedan.jpg | Honda City | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:0_Honda_City_(7th_generation)_sedan.jpg) |
-| suv.jpg | Mahindra XUV700 | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:A_black_Mahindra_XUV700_SUV_in_Ashiana_Brahmananda,_Jamshedpur,_India_(Ank_Kumar,_Infosys_Limited)_02.jpg) |
+| suv.jpg | Mahindra XUV700 (unused — replaced by ertiga.jpg on the "SUV (Ertiga)" card, which had been mismatched with this photo) | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:A_black_Mahindra_XUV700_SUV_in_Ashiana_Brahmananda,_Jamshedpur,_India_(Ank_Kumar,_Infosys_Limited)_02.jpg) |
+| ertiga.jpg | Maruti Suzuki Ertiga, front view (CC BY-SA 4.0, credit: EurovisionNim) | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Suzuki_Ertiga,_MPV_front_view.jpg) |
 | innova.jpg | Toyota Innova | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Toyota_Innova_(first_generation)_(front),_Kajang.jpg) |
 | innova-crysta.jpg | Toyota Innova Crysta | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Toyota_Innova_Crysta_2.4_Z_front_right.jpg) |
 | tempo-traveller.jpg | Force Traveller | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Force_Traveller_Luxury.jpg) |

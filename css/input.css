@@ -9,6 +9,7 @@
   html {
     scroll-behavior: smooth;
     scroll-padding-top: 88px;
+    font-size: 87.5%;
   }
   body {
     @apply font-body text-primary bg-surface antialiased;
@@ -55,6 +56,25 @@
   }
   .btn-call {
     @apply btn bg-primary-600 text-white hover:bg-primary-500 hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  /* Filter tabs (e.g. fleet page: All / Cars / Buses) */
+  .filter-tab {
+    @apply px-5 py-2 rounded-full text-sm font-semibold border border-slate-200 text-slate-600 transition-colors hover:border-secondary-300 hover:text-secondary-600;
+  }
+  .filter-tab.active {
+    @apply bg-primary text-white border-primary hover:text-white;
+  }
+
+  /* Small pill chips (feature tags, "ideal for" tags, seat badges) */
+  .chip {
+    @apply inline-flex items-center gap-1 text-xs font-medium text-slate-600 bg-slate-100 px-2.5 py-1 rounded-full;
+  }
+  .chip-outline {
+    @apply inline-flex items-center gap-1 text-xs font-medium text-primary-700 border border-primary-100 bg-primary-50 px-2.5 py-1 rounded-full;
+  }
+  .chip-badge {
+    @apply absolute top-3 right-3 bg-secondary text-primary text-xs font-bold px-3 py-1 rounded-full shadow-sm;
   }
 
   /* Ripple effect element injected by JS */

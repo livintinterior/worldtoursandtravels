@@ -1,5 +1,5 @@
 /**
- * Worlds Tours and Travels — main site script.
+ * HCR Hyderabad Cab Rentals — main site script.
  * Vanilla JS only. Depends on window.SITE_CONFIG from config.js.
  */
 (function () {
@@ -101,7 +101,7 @@
         nav.classList.toggle("shadow-soft", scrolled);
         nav.classList.toggle("bg-transparent", !scrolled);
         navLinks.forEach((l) => l.classList.toggle("scrolled", scrolled));
-        if (logo) logo.src = scrolled ? CFG.logo : "images/logo-light.svg";
+        if (logo) logo.src = CFG.logo;
         const menuIcon = document.getElementById("mobile-menu-btn");
         if (menuIcon) menuIcon.classList.toggle("text-primary", scrolled);
         if (menuIcon) menuIcon.classList.toggle("text-white", !scrolled);
@@ -150,6 +150,25 @@
       );
       sections.forEach((s) => obs.observe(s));
     }
+  }
+
+  /* ------------------------------------------------------------------
+   * 3b. Fleet filter tabs (All / Cars / Buses)
+   * ------------------------------------------------------------------ */
+  function initFleetFilter() {
+    const buttons = document.querySelectorAll("[data-fleet-filter]");
+    const groups = document.querySelectorAll("[data-fleet-group]");
+    if (!buttons.length || !groups.length) return;
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const filter = btn.getAttribute("data-fleet-filter");
+        buttons.forEach((b) => b.classList.toggle("active", b === btn));
+        groups.forEach((g) => {
+          const match = filter === "all" || g.getAttribute("data-fleet-group") === filter;
+          g.classList.toggle("hidden", !match);
+        });
+      });
+    });
   }
 
   /* ------------------------------------------------------------------
@@ -491,6 +510,7 @@
     applyConfig();
     initPageLoader();
     initNavbar();
+    initFleetFilter();
     initScrollReveal();
     initCounters();
     initTestimonialSlider();
