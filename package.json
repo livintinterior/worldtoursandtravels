@@ -11,6 +11,7 @@
     "serve": "npx --yes http-server -p 8080 -c-1"
   },
   "devDependencies": {
+    "sharp": "^0.35.3",
     "tailwindcss": "^3.4.13"
   }
 }
